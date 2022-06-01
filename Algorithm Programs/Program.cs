@@ -18,8 +18,10 @@ namespace Algorithm_Programs
             //{
             //    Console.WriteLine(item);
             //}
-            BubbleSort obj= new BubbleSort();
-            obj.BubbleSorting();
+            //BubbleSort obj= new BubbleSort();
+            //obj.BubbleSorting();
+            MergeSort obj = new MergeSort();
+            obj.Merging(0, 3, 6);
         }
     }
 }
