@@ -11,13 +11,15 @@ namespace Algorithm_Programs
             //string obj = Console.ReadLine();
             //int n = obj.Length;
             //Permutation.Permute(obj, 0, n - 1);
-            InsertionSort obj = new InsertionSort();
-            string[] names = { "Sameer", "Raj", "Aryan", "Rahul" };
-            obj.InsertionSorting(names);
-            foreach (var item in names)
-            {
-                Console.WriteLine(item);
-            }
+            //InsertionSort obj = new InsertionSort();
+            //string[] names = { "Sameer", "Raj", "Aryan", "Rahul" };
+            //obj.InsertionSorting(names);
+            //foreach (var item in names)
+            //{
+            //    Console.WriteLine(item);
+            //}
+            BubbleSort obj= new BubbleSort();
+            obj.BubbleSorting();
         }
     }
 }
