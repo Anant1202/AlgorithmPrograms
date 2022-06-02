@@ -20,8 +20,10 @@ namespace Algorithm_Programs
             //}
             //BubbleSort obj= new BubbleSort();
             //obj.BubbleSorting();
-            MergeSort obj = new MergeSort();
-            obj.Merging(0, 3, 6);
+            //MergeSort obj = new MergeSort();
+            //obj.Merging(0, 3, 6);
+            Anagram obj = new Anagram();
+            obj.AnagramDetection();
         }
     }
 }
